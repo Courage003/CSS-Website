@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: ruby;
+    src: url(RubikDoodleShadow-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #dadada;
+    position: relative;
+}
+
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;  
+}
+
+
+
+#page1-content{
+    height: 100%;
+    width: 100%;
+    /*background-color: rgb(0, 0, 0);*/
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cursor{
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: #FF5F38;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    
+}
+
+#cursor h5{
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+nav{
+    /*height: 100px;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /*background-color: red;*/
+    padding: 3vw 3vw;
+}
+
+nav h3{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+nav h4{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+#page1-content h1{
+    font-family: ruby;
+    font-size: 27vw;
+    font-weight: 100;
+    line-height: 27vw;
+    
+
+} 
+
+
+#page1-content h1 span{
+    font-family: ruby;
+    display: inline-block;
+}
+
+
+#page2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 5vw 2.8vw;
+}
+
+
+#page2-top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 1.2vw;
+    margin-bottom: 1vw;
+    border-bottom: 1px solid #00000092;
+}
+
+#page2-top h3{
+    font-size: 1.7vw;
+    font-weight: 500;
+    width: 26%;
+
+}
+
+#page2-top h4{
+    font-size: 1.7vw;
+    font-weight: 500;
+}
+
+.elem{
+    overflow: hidden;
+}
+
+.elem h1{
+    font-size: 3.2vw;
+    font-weight: 500;
+}
+
+
+#page3{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 5vw 2.8vw;
+    
+   
+    align-items: center;
+    justify-content: center;
+}
+
+#page3-top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 1.2vw;
+    margin-bottom: 1vw;
+    border-bottom: 1px solid #00000092;
+    display: flex;
+    z-index: 1;
+}
+
+#page3-top h3{
+    font-size: 1.7vw;
+    font-weight: 500;
+    width: 26%;
+
+}
+
+.elem1{
+    overflow: hidden;
+}
+
+.elem1 h1{
+    font-size: 3.2vw;
+    font-weight: 500;
+}
+
+#page3 video{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.4;
+}
+
+
+#loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 10px;
+    font-size: 2vw;
+}
+
