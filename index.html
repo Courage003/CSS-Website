@@ -13,16 +13,127 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
     />
+
+    <script
+      src="https://kit.fontawesome.com/d2a63bb5ba.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="loader">
+    <!-- loading page starts -->
+    <!-- <div id="loader">
       <h3>Let's</h3>
       <h3>Build</h3>
       <h3>a new culture!</h3>
-    </div>
-    <div id="main">
-      <!--Main div acts as wrapper-->
+    </div> -->
+    <!-- loading page ends -->
+
+    <!--Main div acts as wrapper-->
+    <main id="main">
+      <header>
+        <div class="header-logo">
+          <a>Civil Services Society</a>
+        </div>
+        <!-- href="logo.webp -->
+
+        <a id="header-menu-trigger" href="#0" >
+          <span class="header-menu-text">Menu</span>
+          <span class="header-menu-icon"><i class="fa-solid fa-bars"></i></span>
+        </a>
+
+        <nav id="menu-nav-wrap" class="">
+          <a href="#0" id="close-button" title="close">
+            <i class="fa-solid fa-xmark"></i>
+          </a>
+
+          <h3>Options</h3>
+
+          <ul class="nav-list">
+            <!--<li>
+                    <a class="smoothscroll" href="/" title="">Home</a>
+                </li> -->
+            <!--<li>
+                    <a class="smoothscroll" href="#about" title="">About</a>
+                </li>
+                <li>
+                    <a class="smoothscroll" href="#services" title="">Events</a>
+                </li>
+                <li>
+                    <a class="smoothscroll" href="#portfolio" title="">Gallery</a>
+                </li> -->
+            <li>
+              <a
+                class="e-summit-23-special"
+                href="/upsc"
+                target="_blank"
+                title="UPSC"
+                >UPSC CSE</a
+              >
+            </li>
+            <li>
+              <a
+                href="/mentorship"
+                target="_blank"
+                title="Mentorship by Our Alumni"
+                >Mentorship Program</a
+              >
+            </li>
+
+            <li>
+              <a href="/policy" target="_blank" title="Public Policy"
+                >Policy Research</a
+              >
+            </li>
+            <li>
+              <a href="/internship" target="_blank" title="Internship"
+                >Internship Program</a
+              >
+            </li>
+
+            <li>
+              <a href="/insight" target="_blank" title="1st Year Members"
+                >Insight Ignite</a
+              >
+            </li>
+            <li>
+              <a href="/lbc" target="_blank" title="For School Students"
+                >LBC Program</a
+              >
+            </li>
+            <li>
+              <a href="/article" target="_blank" title="Article">Blogs</a>
+            </li>
+            <li>
+              <a href="/team" target="_blank" title="Team">Executive Members</a>
+            </li>
+          </ul>
+
+          <ul class="header-social-list">
+            <li class="animate-intro fadeInUp animated">
+              <a
+                href="https://www.linkedin.com/company/civil-services-club-iitkgp/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin" style="font-size: 1.15em"></i>
+              </a>
+            </li>
+            <li class="animate-intro fadeInUp animated">
+              <a href="https://www.instagram.com/ppgs.iitkgp/" target="_blank">
+                <i class="fab fa-instagram" style="font-size: 1.15em"></i>
+              </a>
+            </li>       
+            <li>
+              <a href="https://twitter.com/ppgs_iitkgp" target="_blank">
+                <i class="fab fa-twitter" style="font-size: 1.15em"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- end #menu-nav-wrap -->
+      </header>
+
       <div id="page1">
         <video
           autoplay
@@ -37,7 +148,6 @@
         <div id="page1-content">
           <nav>
             <h2>Nurturing Excellence for Civil Services at NIT Agartala</h2>
-            <h3>Menu</h3>
           </nav>
 
           <h1>
@@ -81,7 +191,8 @@
 
         <video autoplay loop muted src="assets/Maxwell Gaming (2).mp4"></video>
       </div>
-    </div>
+    </main>
+
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
@@ -97,5 +208,6 @@
     ></script>
 
     <script src="script.js"></script>
+    <script src="script1.js"></script>
   </body>
 </html>

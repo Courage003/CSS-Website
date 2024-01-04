@@ -10,11 +10,128 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 
 html, body{
     width: 100%;
     height: 100%;
 }
+article, aside, details, figcaption, figure, footer, header, hgroup, li, main, menu, nav, section, div, summary {
+    display: block;
+}
+header{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    
+    left: 0;
+    top: 0;
+    z-index: 700;
+}
+
+#header-menu-trigger{
+    display: flex;
+    position: fixed;
+    right: 32px;
+    top: 30px;
+    height: 42px;
+    gap: 10px;
+    line-height: 42px;
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.4rem;
+    color: #dadada;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-menu-trigger #header-menu-text{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -75px;
+    width: 75px;
+    text-align: center;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+
+}
+
+#header-menu-trigger #header-menu-icon{
+    display: block;
+    height: 3px;
+    width: 24px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    right: 9px;
+    margin-top: -1.5px;
+}
+
+#menu-nav-wrap{
+    background: #0c0c0c;
+    color: rgba(255, 255, 255, 0.25);
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 3.6rem 3rem;
+    height: 100dvh;
+    width: max-content;
+    position: fixed;
+    display: block;
+    right: 0;
+    top: 0;
+    transform: translate(100%, 0);
+    transition: transform 0.3s ease-in-out;
+    z-index: 900;
+}
+
+#menu-nav-wrap.active{
+    transform: translate(0, 0);
+    z-index: 1000;
+}
+
+#close-button{
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.308);
+    position: absolute;
+    top: 36px;
+    right: 30px;
+    text-shadow: none;
+    color: white;
+}
+
+#menu-nav-wrap h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: aliceblue;
+}
+
+#menu-nav-wrap .nav-list{
+    font-family: "montserrat-regular", sans-serif;
+    margin: 3.6rem 0 1.5rem 0;
+    padding: 0 0 1.8rem 0;
+    list-style: none;
+    line-height: 3.6rem;
+    
+
+}
+
+#menu-nav-wrap .header-social-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    color: white;
+    margin: 0;
+    font-size: 2.1rem;
+}
+
 
 #page1{
     width: 100%;
