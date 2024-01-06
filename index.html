@@ -1,91 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home|CSS®</title>
-    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="shortcut icon"
+      href="/assets/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/d2a63bb5ba.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- loading page starts -->
     <div id="loader">
-        <h3>Let's</h3>
-        <h3>Build</h3>
-        <h3>a new culture!</h3>
+      <h3>Let's</h3>
+      <h3>Build</h3>
+      <h3>a new culture!</h3>
     </div>
-    <div id="main"> <!--Main div acts as wrapper-->
-        <div id="page1">
-            <video autoplay loop muted src="production_id_4769557 (2160p) (1) (1).mp4"></video>
-            <div id="cursor">
-                <h5>Let's Crack it!</h5>
+    <!-- loading page ends -->
 
-            </div>
+    <!--Main div acts as wrapper-->
+    <main id="main">
+      <header>
+        <div class="header-logo">
+          <img src="assets/CSS.png" alt="Civil Services Society, NITA">
+        </div>
+        <!-- href="logo.webp -->
 
-            <div id="page1-content">
-                <nav>
-                    <h2>Nurturing Excellence for Civil Services at NIT Agartala</h2>
-                    <h3>Menu</h3>
-                </nav>
+        <a id="header-menu-trigger" href="#0" >
+          <span class="header-menu-text">Menu</span>
+          <span class="header-menu-icon"><i class="fa-solid fa-bars"></i></span>
+        </a>
 
-                <h1>
-                    <span>c</span>
-                    <span>s</span>
-                    <span>s</span>
-                </h1>
+        <nav id="menu-nav-wrap" class="">
+          <a href="#0" id="close-button" title="close">
+            <i class="fa-solid fa-xmark"></i>
+          </a>
 
+          <h3>Options</h3>
 
-            </div>
+          <ul class="nav-list">
+            <!--<li>
+                    <a class="smoothscroll" href="/" title="">Home</a>
+                </li> -->
+            <!--<li>
+                    <a class="smoothscroll" href="#about" title="">About</a>
+                </li>
+                <li>
+                    <a class="smoothscroll" href="#services" title="">Events</a>
+                </li>
+                <li>
+                    <a class="smoothscroll" href="#portfolio" title="">Gallery</a>
+                </li> -->
+            <li>
+              <a
+                class="e-summit-23-special"
+                href="/upsc"
+                target="_blank"
+                title="UPSC"
+                >UPSC CSE</a
+              >
+            </li>
+            <li>
+              <a
+                href="/mentorship"
+                target="_blank"
+                title="Mentorship by Our Alumni"
+                >Mentorship Program</a
+              >
+            </li>
 
+            <li>
+              <a href="/policy" target="_blank" title="Public Policy"
+                >Policy Research</a
+              >
+            </li>
+            <li>
+              <a href="/internship" target="_blank" title="Internship"
+                >Internship Program</a
+              >
+            </li>
 
+            <li>
+              <a href="/insight" target="_blank" title="1st Year Members"
+                >Insight Ignite</a
+              >
+            </li>
+            <li>
+              <a href="/lbc" target="_blank" title="For School Students"
+                >LBC Program</a
+              >
+            </li>
+            <li>
+              <a href="/article" target="_blank" title="Article">Blogs</a>
+            </li>
+            <li>
+              <a href="/team" target="_blank" title="Team">Executive Members</a>
+            </li>
+          </ul>
+
+          <ul class="header-social-list">
+            <li class="animate-intro fadeInUp animated">
+              <a
+                href="/"
+                target="_blank"
+                title="LinkedIn"
+              >
+                <i class="fab fa-linkedin" style="font-size: 1.15em"></i>
+              </a>
+            </li>
+            <li class="animate-intro fadeInUp animated">
+              <a 
+                href="/" 
+                target="_blank"
+                title="Instagram"
+              >
+                <i class="fab fa-instagram" style="font-size: 1.15em"></i>
+              </a>
+            </li>       
+            <li>
+              <a 
+                href="" 
+                target="_blank"
+                title="Twitter"
+              >
+                <i class="fab fa-twitter" style="font-size: 1.15em"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- end #menu-nav-wrap -->
+      </header>
+
+      <div id="page1">
+        <video
+        autoplay
+        loop
+        muted
+        src="assets/production_id_4769557 (2160p) (1) (1).mp4"
+        ></video>
+        <div id="cursor">
+          <h5>Let's Crack it!</h5>
         </div>
 
-        <div id="page2">
-            <div id="page2-top">
-                <h3>Empowering Minds, Shaping Leaders</h3>
-                <h4>NIT Agartala</h4>
+        <div id="page1-content">
+          <section class="name">
+            <h3>A NITA Club</h3>
+            <h1>
+              Civil Services Society
+            </h1>
+          </section>
+        </div>
+      </div>
 
-                
-            </div>
-
-            <div class="elem">
-
-                <h1>
-                    
-
-                    The Civil Service Society at NIT Agartala is dedicated to guiding and inspiring students for success in civil services examinations. Our primary focus is on nurturing leadership qualities, academic excellence, and a commitment to public service. 
-                </h1>
-            </div>
-
-
+      <div id="page2">
+        <div id="page2-top">
+          <h3>Empowering Minds, Shaping Leaders</h3>
+          <h4>NIT Agartala</h4>
         </div>
 
-        <div id="page3">
-            <div id="page3-top">
-                <h3>Empowering Future Civil Service Leaders</h3>
-               
+        <div class="elem">
+          <h1>
+            The Civil Service Society at NIT Agartala is dedicated to guiding
+            and inspiring students for success in civil services examinations.
+            Our primary focus is on nurturing leadership qualities, academic
+            excellence, and a commitment to public service.
+          </h1>
+        </div>
+      </div>
 
-                
-            </div>
-
-            <div class="elem1">
-                <h1>
-                    Through workshops, seminars, and mentorship programs, the society aims to empower its members with the tools and insights required to navigate the complexities of civil service exams, ultimately contributing to the development of effective and ethical leaders for the nation.
-                </h1>
-
-                
-            </div>
-
-            <video autoplay loop muted src="Maxwell Gaming (2).mp4"></video>
-            
-
+      <div id="page3">
+        <div id="page3-top">
+          <h3>Empowering Future Civil Service Leaders</h3>
         </div>
 
-    </div>
+        <div class="elem1">
+          <h1>
+            Through workshops, seminars, and mentorship programs, the society
+            aims to empower its members with the tools and insights required to
+            navigate the complexities of civil service exams, ultimately
+            contributing to the development of effective and ethical leaders for
+            the nation.
+          </h1>
+        </div>
+
+        <video autoplay loop muted src="assets/Maxwell Gaming (2).mp4"></video>
+      </div>
+    </main>
+
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+      integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <script src="script.js"></script>
-</body>
+    <script src="script1.js"></script>
+  </body>
 </html>
